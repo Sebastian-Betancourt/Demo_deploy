@@ -1,5 +1,9 @@
 # Usa la imagen base de Nginx
-FROM nginx:alpine
+# FROM nginx:alpine
 
 # Copia el contenido de la carpeta public en la ruta que Nginx usa para servir archivos
-COPY public/ /usr/share/nginx/html
+# COPY public/ /usr/share/nginx/html
+
+
+
+# Dockefile comentado en FROM y COPY para que no valga
